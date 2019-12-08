@@ -1,0 +1,111 @@
+body {
+	background-color: rgb(240, 242, 245);
+	color: rgb(30, 40, 50);
+	font-family: courier;
+} 
+
+h1, h2 {
+	font-family: courier;
+}
+
+h1 {
+	color: #1b2a49;
+	font-size: 37px;
+	font-weight: 800;
+	letter-spacing: 5px;
+	font-family: 'Bebas Neue', cursive;
+} 
+
+h2 {
+	color: #010038;
+	font-size: 30px;
+	font-weight: lighter;
+	font-family: 'Lobster', cursive;
+	font-weight: lighter;
+}
+
+a {
+	text-decoration: none; 
+	color: rgb(118, 138, 212);
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 30px;
+}
+
+a:hover { 					
+	font-weight: 500;
+	color: rgb(105, 120, 200);
+	font-weight: 800;
+	transition: color 0.3s ease;
+}
+
+p {
+  color: black;
+	font-size: 18px;
+	font-family: 'EB Garamond', serif;
+	font-weight: lighter;
+} 
+
+/* Custom design with class */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 500px){
+
+	.container {
+		width: 400px;
+	}
+
+}
+
+@media (max-width: 760px){
+
+	.container {
+		width: 600px;
+	}
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-blue {
+	background-color: rgb(118, 138, 212);
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover {
+	background-color: #35416e;
+	color: white;
+}
+
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
+
